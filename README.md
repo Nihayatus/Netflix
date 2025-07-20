@@ -1,2 +1,2 @@
-# Netflix
+# Netflix Dashboard
 hi
