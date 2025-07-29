@@ -1,6 +1,10 @@
 # Netflix Dashboard
+Dashboard ini menganalisis performa Netflix dari sisi distribusi rating, distribusi konten berdasarkan negara, pertumbuhan konten per tahun, genre populer, dominasi format film, dan deskripsi tiap konten menggunakan data penayangan tahun 2008 - 2020 dengan total 6234 baris data.
 
-![Dashboard Preview](assets/dashboard_screenshot.png)
+---
+![Dashboard Preview](Netflix_Dashboard.png)
+🔗 [**View Dashboard on Tableau Public**]([https://public.tableau.com/views/Netflix_17137145475610/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])
+
 ---
 
 ### ✅ **INSIGHT DARI DASHBOARD**
@@ -20,7 +24,7 @@
 
    * Lonjakan besar konten terjadi pada **2016 hingga 2019**, terutama **Movie**.
    * Tahun **2020** terlihat penurunan drastis.
-   * **Insight**: Netflix mengalami pertumbuhan pesat selama 2016–2019, tapi sempat terhambat (kemungkinan karena pandemi).
+   * **Insight**: Netflix mengalami pertumbuhan pesat selama 2016–2019, tapi sempat terhambat di tahun 2020 (kemungkinan karena pandemi).
 
 4. **Distribusi Konten Berdasarkan Negara**
 
