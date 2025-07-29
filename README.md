@@ -3,7 +3,9 @@ Dashboard ini menganalisis performa Netflix dari sisi distribusi rating, distrib
 
 ---
 ![Dashboard Preview](Netflix_Dashboard.png)
-🔗 [**View Dashboard on Tableau Public**]([https://public.tableau.com/views/Netflix_17137145475610/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link])
+
+## 🔗 Live Demo
+[**View Dashboard on Tableau Public**](https://public.tableau.com/views/Netflix_17137145475610/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
