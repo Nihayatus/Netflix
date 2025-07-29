@@ -1,5 +1,5 @@
 # Netflix Dashboard
-Dashboard ini menganalisis performa Netflix dari sisi distribusi rating, distribusi konten berdasarkan negara, pertumbuhan konten per tahun, genre populer, dominasi format film, dan deskripsi tiap konten menggunakan data penayangan tahun 2008 - 2020 dengan total 6234 baris data.
+Dashboard ini menganalisis performa Netflix dari sisi distribusi rating, distribusi konten berdasarkan negara, pertumbuhan konten per tahun, genre populer, dominasi format film, dan deskripsi tiap konten. Visualisasi dibuat dengan **Tableau** menggunakan data penayangan tahun 2008 - 2020 dengan total 6234 baris data.
 
 ---
 ![Dashboard Preview](Netflix_Dashboard.png)
