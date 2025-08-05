@@ -79,25 +79,25 @@ GROUP BY type, release_year;
 | Movie| 2019| 400| TV Show| 2019| 443| 
 | Movie| 2020| 6| TV Show| 2020| 19|
 
-## Total Movies and TV-Shows by Country
+## Top 10 Total Movies and TV-Shows by Country
 ```sql
 SELECT
   type AS Show_Type,
   country AS Country,
   COUNT(show_id) AS Total_Shows
-FROM netflix 
-GROUP BY type, country;
+FROM netflix
+GROUP BY type, country
+ORDER BY Total_Shows DESC LIMIT 10;
 ```
-| Show_Type | Year | Total_Shows |  Show_Type | Year | Total_Shows |
+| Show_Type | Country | Total_Shows |  Show_Type | Country | Total_Shows |
 | -------------------- | -------------------- |-------------------- |  -------------------- | -------------------- |-------------------- |
-| Movie | 2010 | 111|  TV Show| 2010| 38| 
-| Movie| 2011| 100|  TV Show| 2011| 36| 
-| Movie| 2012| 125| TV Show| 2012| 58| 
-| Movie| 2013| 177| TV Show| 2013| 60| 
-| Movie| 2014| 213| TV Show| 2014| 75| 
-| Movie| 2015| 363| TV Show| 2015| 154| 
-| Movie| 2016| 593| TV Show| 2016| 237| 
-| Movie| 2017| 682|  TV Show| 2017| 277| 
-| Movie| 2018| 646| TV Show| 2018| 417| 
-| Movie| 2019| 400| TV Show| 2019| 443| 
-| Movie| 2020| 6| TV Show| 2020| 19|
+| Movie | United States | 1482| TV Show | United States | 550| 
+| Movie | India | 724| TV Show | United Kingdom | 178| 
+| Movie | United Kingdom | 170| TV Show | Japan | 129|
+| Movie | Canada | 88| TV Show | South Korea | 104| 
+| Movie | Spain | 80| TV Show | Taiwan | 65|
+| Movie | Turkey | 55| TV Show | India | 53| 
+| Movie | Mexico | 54| TV Show | Canada | 53| 
+| Movie | France | 50| TV Show | France | 40| 
+| Movie | Hong Kong | 49| TV Show | Australia | 39| 
+| Movie | Japan | 47| TV Show | Spain | 37| 
